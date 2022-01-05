@@ -1,0 +1,25 @@
+Choose the amount of discs by changing the spin box value (from 3 to 8) and
+start the game with the Play button. To move a disc, first select a rod that
+has at least one disc. The topmost discs of each rod can be accessed with A, S
+and D keys, or with buttons below each rod. Then, simply select a new rod where
+the disc is set to be moved. If the destination rod is same as its starting
+place, the disc gets unselected, which allows user to select a disc from  a
+different rod. If the user tries to make an illegal move, meaning that a thinner
+disc is tried to be moved on top of a wider disc, the game lets user to continue
+the game, but the disc is not moved. However, a second illegal move results in a
+lost game. The game is won when the tower is rebuilt in ascending order, like in
+the beginning of the game, to the target rod.
+
+Additional features:
+- Each disc has a custom color.
+- There is a timer that counts elapsed time during the game and pauses when the
+  game is finished.
+- The game can be restarted at any point with the Restart button. The discs
+  amount can also be changed to next game, and the timer and moves taken resets.
+- The game shows the amounts of moves taken in a single game, and the minimum
+  number of moves left to solve the puzzle with the amount of discs selected.
+- The game has an auxillairy rod and a target rod, where the tower has to be
+  built in the end.
+- The game can be controlled with either keybindings (A,S,D) or by pressing
+  buttons found below each rod.
+- The game stores and shows each session's best winning time.
